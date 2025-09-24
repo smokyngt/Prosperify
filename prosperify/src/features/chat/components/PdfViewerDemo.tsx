@@ -184,21 +184,68 @@ export function PdfViewerDemo() {
           >
          <div className="p-8 h-full">
 
-              <div className="space-y-4">
-                <h1 className="text-2xl font-bold text-gray-900">Guide d'intégration des Agents.pdf</h1>
-                <div className="h-px bg-gray-300" />
-                <div className="space-y-3 text-gray-700">
-                  <p className="text-sm leading-relaxed">
-                    Chapitre 3 : Utilisation des outils Marketing
-                  </p>
-                  <p className="text-sm leading-relaxed">
-                    <span className="bg-yellow-200"> Le 'Manuel du Nouvel Agent' a été conçu pour vous guider à travers nos outils. La base de données partagée est votre premier point de contact, vous y trouverez tous les actifs de communication de l'agence, y compris les plans de communication et les templates.</span> Vous pouvez y télécharger nos modèles de fiches techniques, utiliser nos scripts de storytelling et contacter nos partenaires pour des shootings photo professionnels ou des visites 3D.
-                  </p>
-                  <p className="text-sm leading-relaxed">
-                    Pour chaque nouveau mandat, il est impératif de suivre le processus de communication défini, en s'assurant que tous les contenus sont en adéquation avec l'image de marque de l'agence. L'accès à ces ressources est conçu pour vous permettre de promouvoir vos biens de manière autonome tout en bénéficiant de la visibilité et de la réputation de l'agence Kretz.
-                  </p>
-                </div>
-              </div>
+<div className="space-y-4">
+  <h1 className="text-2xl font-bold text-gray-900">Contrat Verdi.pdf</h1>
+  <div className="h-px bg-gray-300" />
+
+  <div className="space-y-3 text-gray-700">
+    <p className="text-sm leading-relaxed">
+      <span className="font-bold">PRÉAMBULE :</span> 
+      Dans le cadre de leurs activités respectives, les Parties souhaitent collaborer afin de conduire des travaux de recherche et de développement. 
+      Ce préambule illustre l’esprit de partenariat et guide l’interprétation des dispositions contractuelles.
+    </p>
+
+    <p className="text-sm leading-relaxed">
+      <span className="font-bold">ARTICLE 1 – OBJET DU CONTRAT :</span> 
+      Le présent Contrat a pour objet d’organiser la collaboration entre VERDI et le PARTENAIRE, incluant la définition de programmes de recherche, 
+      la mise en commun de moyens matériels et humains, la production de rapports, ainsi que la valorisation des résultats obtenus.  
+      Les Parties reconnaissent expressément que cette collaboration ne crée aucune relation de société ou de subordination, chacune conservant son indépendance juridique et financière.
+    </p>
+
+    {/* --- On place la durée plus tôt, au milieu --- */}
+    <p className="text-sm leading-relaxed">
+      <span className="font-bold">ARTICLE 6 – DURÉE :</span> 
+      Le présent Contrat entre en vigueur à la date de signature pour 
+      <span className="bg-yellow-200"> une durée initiale de trois (3) ans</span>.  
+      Il pourra être renouvelé par accord exprès et écrit des Parties.  
+      En cas de non-renouvellement, 
+      <span className="bg-yellow-200"> les obligations relatives à la confidentialité et à la propriété intellectuelle resteront en vigueur</span>.  
+      Cette disposition constitue une garantie de continuité, même au terme de la collaboration.
+    </p>
+
+    <p className="text-sm leading-relaxed">
+      <span className="font-bold">ARTICLE 2 – DÉFINITIONS :</span> 
+      « Résultats » désigne toute donnée, méthode, prototype, logiciel, rapport ou publication généré.  
+      « Informations Confidentielles » s’entend de toute information écrite ou orale, identifiée comme telle ou dont la nature impose un caractère réservé.  
+      « Propriété Intellectuelle Antérieure » couvre tout droit détenu par une Partie avant le présent Contrat.
+    </p>
+
+    <p className="text-sm leading-relaxed">
+      <span className="font-bold">ARTICLE 3 – OBLIGATIONS DES PARTIES :</span> 
+      VERDI s’engage à mettre à disposition ses compétences scientifiques, ses laboratoires et son personnel qualifié.  
+      Le PARTENAIRE fournira les données, échantillons et informations techniques nécessaires et participera activement aux réunions de coordination.  
+      Les Parties conviennent de consigner chaque étape du projet dans un calendrier partagé.  
+      De plus, <span className="bg-yellow-200">les principes d’éthique scientifique et de sécurité</span> devront être respectés à tout moment.
+    </p>
+
+    <p className="text-sm leading-relaxed">
+      <span className="font-bold">ARTICLE 4 – CONFIDENTIALITÉ :</span> 
+      Les Parties s’engagent à garder confidentielles toutes les informations échangées, pendant la durée du Contrat et cinq ans après son terme.  
+      Aucune communication externe ne pourra être effectuée sans accord écrit préalable.  
+      Cette obligation ne s’applique pas aux informations tombées dans le domaine public ou déjà connues.
+    </p>
+
+    <p className="text-sm leading-relaxed">
+      <span className="font-bold">ARTICLE 5 – PROPRIÉTÉ INTELLECTUELLE :</span> 
+      Chaque Partie conserve la pleine propriété de ses droits antérieurs.  
+      Les Résultats de la collaboration appartiendront conjointement aux Parties, sauf stipulation particulière.  
+      Toute exploitation industrielle ou commerciale nécessitera un accord séparé définissant les conditions de partage des revenus et des responsabilités.  
+      Sans cet accord, les Résultats resteront réservés à une utilisation interne par les Parties.
+    </p>
+  </div>
+</div>
+
+
             </div>
 
             {/* Overlay bounding boxes */}

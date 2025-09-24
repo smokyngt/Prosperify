@@ -3,9 +3,10 @@
 import React from "react"
 import { useState, useRef, useCallback } from "react"
 import { ChatInterface } from "@/features/chat/components/chat-interface"
-// import { PdfViewer } from "@/components/common/dashboardComponent/assistant/chat/PdfViewerDemo"
+
 import ChatWithProviders from "@/features/chat/providers/chat-dnd-provider"
 import { EnhancedPdfViewer } from "@/features/chat/features/enhanced-pdf-viewer"
+import { PdfViewerDemo } from "../components/PdfViewerDemo"
 
 const Playground: React.FC = () => {
   const [leftWidth, setLeftWidth] = useState(50)
@@ -81,7 +82,8 @@ const Playground: React.FC = () => {
 
       {!isPdfViewerCollapsed && (
         <div className="min-w-0 transition-all duration-300 ease-out" style={{ width: `${100 - leftWidth}%` }}>
-          <EnhancedPdfViewer />
+          {/* <EnhancedPdfViewer /> */}
+          <PdfViewerDemo />
         </div>
       )}
     </div>

@@ -37,7 +37,7 @@ export function ChatInterface({ onTogglePdfViewer, isPdfViewerCollapsed }: ChatI
   ])
   const [isSidebarOpen, setIsSidebarOpen] = useState(true)
   const [conversations, setConversations] = useState([
-    { id: "1", title: " Intégration agents", messages: [...messages] },
+    { id: "1", title: "contrat verdi", messages: [...messages] },
     { id: "2", title: "Budget Q4", messages: [] },
     { id: "3", title: "Procédures RH", messages: [] },
     { id: "4", title: "Rapport mensuel", messages: [] },

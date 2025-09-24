@@ -9,7 +9,7 @@ import IndexAssistant from './features/assistant/pages/index.assistant';
 import Sources from './features/assistant/pages/sources.assistant';
 import Export from './features/assistant/pages/export.assistant';
 import SettingsAssistant from './features/assistant/pages/settings.assistant';
-import Playground from './features/assistant/pages/playground';
+import Playground from './features/chat/pages/playground';
 import DashboardUser from './features/user/pages/dashboard.user';
 import DashboardOrga from './features/organization/pages/dashboard.orga';
 

@@ -5,6 +5,8 @@ const preline = require('preline/plugin');
 
 /** @type {import('tailwindcss').Config} */
 module.exports = {
+ darkMode: "class", // <-- AJOUTE ÇA
+
   content: [
     'node_modules/preline/dist/*.js',
     './src/**/*.{js,jsx,ts,tsx,html,css}',
